@@ -1,0 +1,26 @@
+/* Importing/Linking to thr Libre baskerville Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+
+    /* "box-sizing: border-box;" inclues padding and border when setting a width or height */
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Libre Baskerville', serif;
+    line-height: 1.5;
+}
+
+h1 {
+    font-weight: 400px;
+    font-size: 60px;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+
+a {
+    /* Removes the underline */
+    text-decoration: none;
+}
